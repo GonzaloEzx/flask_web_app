@@ -1,6 +1,6 @@
-from xmlrpc.client import boolean
+
 from flask import Blueprint, render_template
-from matplotlib.pyplot import text
+
 
 auth = Blueprint('auth', __name__)
 
